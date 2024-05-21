@@ -1,2 +1,1 @@
-<h1>Homeschool Psych</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1 style="text-align: center;">Welcome to Homeschool Psychology</h1>
