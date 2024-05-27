@@ -14,27 +14,22 @@
 	<Header />
 
 	<main class="container">
-		<section>
-			<Introduction />
-		</section>
-
-		<section>
-			<Books />
-		</section>
+		<Introduction />
+		<Books/>
 	</main>
 
 	<Footer />
 </div>
 
 <style>
-  .wrapper {
-    min-block-size: 100dvh;
-    display: grid;
-    grid-template-rows: 1fr auto;
-  }
+	.wrapper {
+		min-block-size: 100dvh;
+		display: grid;
+		grid-template-rows: 1fr auto;
+	}
 
-  main {
-    padding-block-start: 8rem;
-    padding-block-end: 2rem;
-  }
+	main {
+		padding-block-start: 8rem;
+		padding-block-end: 2rem;
+	}
 </style>
