@@ -6,8 +6,13 @@
 		<nav>
 			<ul>
 				<li>
+					<a href="https://x.com/homeschoolpsych" target="_blank"
+					><img src="/twitter.png" alt="facebook logo" /></a
+					>
+				</li>
+				<li>
 					<a href="https://www.facebook.com/homeschoolpsych/" target="_blank"
-						><img src="/facebook.png" alt="facebook logo" /></a
+						><img src="/facebook.png" alt="x logo" /></a
 					>
 				</li>
 			</ul>
