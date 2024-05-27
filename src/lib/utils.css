@@ -1,0 +1,11 @@
+.center {
+  text-align: center;
+}
+
+.balance {
+  text-wrap: balance;
+}
+
+.square {
+  aspect-ratio: 1;
+}

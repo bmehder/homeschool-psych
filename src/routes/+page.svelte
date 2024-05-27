@@ -1,47 +1,40 @@
-<svelte:head>
-	<title>Homeschool Psychology – Tim Rice, D.Min, LPC</title>
-	<meta
-		name="description"
-		content="Help high school students understand that
-		when it comes to psychology, the Christian worldview makes sense."
-	/>
-</svelte:head>
+<script>
+	import '@picocss/pico'
+	import '$lib/utils.css'
+	import Seo from '$lib/SEO.svelte'
+	import Header from '$lib/Header.svelte'
+	import Introduction from '$lib/Introduction.svelte'
+	import Books from '$lib/Books.svelte'
+	import Footer from '$lib/Footer.svelte'
+</script>
 
-<section>
-	<h1>Welcome to Homeschool Psychology</h1>
-	<p>
-		For Christian students, psychology class can be one of the more challenging classes
-		they take in college. What did they teach you in Psych 101? Prepare your kids now,
-		before they go to college. Introduce them to the study of God’s grandest creation –
-		the human mind – from a distinctly Christian perspective. Help them understand that
-		when it comes to psychology, the Christian worldview makes sense.
-	</p>
-</section>
+<Seo />
 
-<section class="books">
-	<div class="grid">
-		<img
-			src="homeschool-psych-and-student-workbook.jpg"
-			alt="Homeschool Psych and Student Workbook"
-		/>
-		<img
-			src="psychology-a-christian-perspective-and-teachers-guide.jpg"
-			alt="Psychology: A Christian Perspective"
-		/>
-		<img
-			src="bring-your-christian-worldview-to-psychology-class.jpg"
-			alt="Bring Your Christian Worldview To Psychology Class"
-		/>
-		<img
-			src="its-not-that-simple-natty-rose.jpg"
-			alt="It's Not That Simple, Natty Rose."
-		/>
-	</div>
-</section>
+<div class="wrapper">
+	<Header />
+
+	<main class="container">
+		<section>
+			<Introduction />
+		</section>
+
+		<section>
+			<Books />
+		</section>
+	</main>
+
+	<Footer />
+</div>
 
 <style>
-	.books img {
-		aspect-ratio: 1;
-		object-position: bottom;
-	}
+  .wrapper {
+    min-block-size: 100dvh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+  }
+
+  main {
+    padding-block-start: 8rem;
+    padding-block-end: 2rem;
+  }
 </style>

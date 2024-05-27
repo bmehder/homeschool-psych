@@ -1,15 +1,5 @@
-<script>
-  const date = new Date()
-</script>
-
 <footer class="container">
-  <div class="inner">
-    <p>Copyright ©{date.getFullYear()} Homeschool Psychology. All rights reserved.</p>
-  </div>
+	<p class="center balance">
+		Copyright ©{new Date().getFullYear()} Homeschool Psychology. All rights reserved.
+	</p>
 </footer>
-
-<style>
-  .inner {
-    text-align: center;
-  }
-</style>
