@@ -3,7 +3,7 @@
 </script>
 
 <footer class="container">
-  <div class="inner ">
+  <div class="inner">
     <p>Copyright ©{date.getFullYear()} Homeschool Psychology. All rights reserved.</p>
   </div>
 </footer>

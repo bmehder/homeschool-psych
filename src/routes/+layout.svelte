@@ -14,13 +14,13 @@
 
 <style>
   .wrapper {
-    min-height: 100dvh;
+    min-block-size: 100dvh;
     display: grid;
     grid-template-rows: 1fr auto;
   }
 
   main {
-    padding-block-start: 10rem;
+    padding-block-start: 8rem;
     padding-block-end: 2rem;
   }
 </style>

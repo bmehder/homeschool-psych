@@ -1,12 +1,14 @@
 <svelte:head>
-  <title>Homeschool Psychology – Tim Rice, D.Min, LPC</title>
-  <meta name="description" content="Help high school students understand that
-		when it comes to psychology, the Christian worldview makes sense.">
+	<title>Homeschool Psychology – Tim Rice, D.Min, LPC</title>
+	<meta
+		name="description"
+		content="Help high school students understand that
+		when it comes to psychology, the Christian worldview makes sense."
+	/>
 </svelte:head>
 
-<h1>Welcome to Homeschool Psychology</h1>
-
 <section>
+	<h1>Welcome to Homeschool Psychology</h1>
 	<p>
 		For Christian students, psychology class can be one of the more challenging classes
 		they take in college. What did they teach you in Psych 101? Prepare your kids now,
@@ -17,17 +19,29 @@
 </section>
 
 <section class="books">
-  <div class="grid">
-    <img src="homeschool-psych-and-student-workbook.jpg" alt="Homeschool Psych and Student Workbook" />
-    <img src="psychology-a-christian-perspective-and-teachers-guide.jpg" alt="Psychology: A Christian Perspective" />
-    <img src="bring-your-christian-worldview-to-psychology-class.jpg" alt="Bring Your Christian Worldview To Psychology Class" />
-    <img src="its-not-that-simple-natty-rose.jpg" alt="It's Not That Simple, Natty Rose." />
-  </div>
+	<div class="grid">
+		<img
+			src="homeschool-psych-and-student-workbook.jpg"
+			alt="Homeschool Psych and Student Workbook"
+		/>
+		<img
+			src="psychology-a-christian-perspective-and-teachers-guide.jpg"
+			alt="Psychology: A Christian Perspective"
+		/>
+		<img
+			src="bring-your-christian-worldview-to-psychology-class.jpg"
+			alt="Bring Your Christian Worldview To Psychology Class"
+		/>
+		<img
+			src="its-not-that-simple-natty-rose.jpg"
+			alt="It's Not That Simple, Natty Rose."
+		/>
+	</div>
 </section>
 
 <style>
-  .books img {
-    aspect-ratio: 1;
-    object-position: bottom;
-  }
+	.books img {
+		aspect-ratio: 1;
+		object-position: bottom;
+	}
 </style>

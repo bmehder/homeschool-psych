@@ -22,7 +22,7 @@
 
 <style>
 	header {
-    width: 100%;
+    inline-size: 100%;
     position: fixed;
 		padding-block: 1rem;
     background-color: #13171f;
@@ -38,6 +38,6 @@
 	}
 
 	nav img {
-		width: 2rem;
+		inline-size: 2rem;
 	}
 </style>
