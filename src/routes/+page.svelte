@@ -15,7 +15,7 @@
 
 	<main class="container">
 		<Introduction />
-		<Books/>
+		<Books />
 	</main>
 
 	<Footer />
